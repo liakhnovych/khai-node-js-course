@@ -12,9 +12,9 @@ export default {
 
        port: 5432,
 
-       user: 'nodejs_course_admin',
+       user: 'AS_Admin_24',
 
-       password: 'my_password',
+       password: 'Khai_Course',
 
        database: 'nodejs_course_database',
 
