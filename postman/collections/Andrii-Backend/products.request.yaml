@@ -1,0 +1,16 @@
+$kind: http-request
+name: products
+url: http://localhost:3000/products
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \  \"name\": \"Nokia 3310\",\r
+
+    \  \"brand\": \"Nokia\",\r
+
+    \  \"userId\": 4\r
+
+    }"
+order: 3147366201933347
