@@ -1,0 +1,14 @@
+$kind: http-request
+name: users
+url: http://localhost:3000/users
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \  \"name\": \"andrii\",\r
+
+    \  \"email\": \"andrii@gmail.com\"\r
+
+    }"
+order: 1776711499759

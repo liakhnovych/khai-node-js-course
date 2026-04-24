@@ -1,9 +1,9 @@
 {
   "dependencies": {
-    "drizzle-kit": "^0.31.10",
+    "body-parser": "^2.2.2",
     "drizzle-orm": "^0.45.2",
     "express": "^5.2.0",
-    "pg": "^8.11.3"
+    "pg": "^8.20.0"
   },
   "name": "khai-node-js-course",
   "version": "1.0.0",
@@ -11,7 +11,7 @@
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "server": "node src/index.js",
+    "server": "node --watch src/index.js",
     "migration:generate": "drizzle-kit generate:pg",
     "migration:push": "drizzle-kit push"
   },
@@ -24,5 +24,8 @@
   "bugs": {
     "url": "https://github.com/liakhnovych/khai-node-js-course/issues"
   },
-  "homepage": "https://github.com/liakhnovych/khai-node-js-course#readme"
+  "homepage": "https://github.com/liakhnovych/khai-node-js-course#readme",
+  "devDependencies": {
+    "drizzle-kit": "^0.31.10"
+  }
 }
